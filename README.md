@@ -32,6 +32,6 @@ From the location where you download all these terraform scripts, run the follow
 
 terraform init
 
-terraform plan
+terraform plan -out terraform.out
 
-terraform apply
+terraform apply terraform.out
